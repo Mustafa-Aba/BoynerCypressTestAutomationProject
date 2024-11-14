@@ -15,6 +15,16 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './customCommands/homepageCommands'
+import './customCommands/sepetPageCommands'
 
+/*
+import registerCypressGrep from '@cypress/grep/src/support'
+registerCypressGrep()
+
+import "cypress-real-events"
+import 'cypress-mochawesome-reporter/register';
+import '@cypress-audit/lighthouse/commands'
+*/
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
